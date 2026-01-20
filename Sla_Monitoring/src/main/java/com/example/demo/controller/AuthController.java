@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:3000") // Frontend connect panna
+@CrossOrigin(origins = "*") // Frontend connect panna
 public class AuthController {
 
     @Autowired
